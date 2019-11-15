@@ -1,6 +1,6 @@
 (function(window, document) {
 
-    
+
 
     // 给hotcss开辟个命名空间，别问我为什么，我要给你准备你会用到的方法，免得用到的时候还要自己写。
     const hotcss = {}
@@ -46,8 +46,8 @@
         hotcss.designWidth = designWidth // 保证px2rem 和 rem2px 不传第二个参数时, 获取hotcss.designWidth是undefined导致的NaN
 
         let scale = 1 / dpr,
-            content = `width=device-width, initial-scale=${  scale  }, minimum-scale=${  scale  }, maximum-scale=${  scale  }, user-scalable=no`
-;if (viewportEl) {
+            content = `width=device-width, initial-scale=${ scale}, minimum-scale=${scale}, maximum-scale=${ scale }, user-scalable=no`
+if (viewportEl) {
             viewportEl.setAttribute("content", content)
         }
         else {
@@ -89,19 +89,19 @@
 
         if (!innerWidth) {
             return false
- }
+        }
 
         document.documentElement.style.fontSize = `${innerWidth * 20 / 320}px`
-hotcss.callback && hotcss.callback()
+        hotcss.callback && hotcss.callback()
 
     }
-hotcss.mresize()
+    hotcss.mresize()
     // 直接调用一次
 
     window.addEventListener("resize", () => {
         clearTimeout(hotcss.tid)
-		hotcss.tid = setTimeout(hotcss.mresize, 33)
-	}, false)
+        hotcss.tid = setTimeout(hotcss.mresize, 33)
+    }, false)
     // 绑定resize的时候调用
 
     window.addEventListener("load", hotcss.mresize, false)
@@ -109,9 +109,9 @@ hotcss.mresize()
 
 
     setTimeout(() => {
-        hotcss.mresize() 
-		//防止某些机型怪异现象，异步再调用一次
-	}, 333)
+        hotcss.mresize()
+        // 防止某些机型怪异现象，异步再调用一次
+    }, 333)
 
     window.hotcss = hotcss
     // 命名空间暴露给你，控制权交给你，想怎么调怎么调。
