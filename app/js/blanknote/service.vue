@@ -58,9 +58,9 @@ export default {
      padding-bottom: 40px;
      .item{
        width: 25%;
-       height: 130px;
+       height: 144px;
        text-align: center;
-       margin-bottom:12px;
+       margin-bottom:20px;
        img{
          width: 90px;
          height: 90px;
@@ -72,9 +72,6 @@ export default {
          text-overflow: ellipsis;
          overflow: hidden;
          margin-top: 12px;
-         &:nth-child(3){
-           color:#ff801a;
-         }
        }
      }
    }

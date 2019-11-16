@@ -34,27 +34,27 @@ export default {
                 src: "//m.360buyimg.com/mobilecms/s700x280_jfs/t1/62008/34/14059/127095/5dba796bE85fc285b/360f8c9e33c2729f.jpg!cr_1125x445_0_171!q70.jpg.dpg",
             }],
             enters: [{
-                href: "home",
+                href: "download",
                 img: "//img12.360buyimg.com/jrpmobile/jfs/t3991/64/2521945388/12110/93c0139/58d1e462Ncf294123.png?width=132&height=132",
                 title: "优惠券",
             },
             {
-                href: "home",
+                href: "download",
                 img: "//img12.360buyimg.com/jrpmobile/jfs/t5590/252/875247023/17343/946aa72c/59224650N0f7ffc92.png?width=132&height=132",
                 title: "领福利",
             },
             {
-                href: "home",
+                href: "download",
                 img: "//img12.360buyimg.com/jrpmobile/jfs/t4393/329/2180608902/13217/c88c0cec/58ec9dcdN1534e2d7.png?width=132&height=132",
                 title: "抢钢镚",
             },
             {
-                href: "home",
+                href: "download",
                 img: "//img12.360buyimg.com/jrpmobile/jfs/t5488/298/1036263348/12073/b4f4de97/590ac8e8Ne9def22e.png?width=135&height=135",
                 title: "白条提额",
             },
             {
-                href: "home",
+                href: "download",
                 img: "//img12.360buyimg.com/jrpmobile/jfs/t1/36242/13/119/12214/5cb06492E0c73a66f/a284f91242e27af1.png?width=90&height=90",
                 title: "领京豆",
             }],
